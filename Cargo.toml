@@ -1,0 +1,11 @@
+[package]
+name = "lambdaworks-exercise-rsa"
+version = "0.1.0"
+edition = "2021"
+description = "RSA exercise for Lambdaworks Sparkling Water Bootcamp"
+rust-version = "1.72"
+
+[dependencies]
+rand = "0.8"
+num-bigint = { version = "0.4", features = ["rand"] }
+num-traits = "0.2.16"
